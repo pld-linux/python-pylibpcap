@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Python module for the libpcap packet capture library, based on the
-original python libpcap module by Aaron Rhodes.
+original Python libpcap module by Aaron Rhodes.
 
 %description -l pl
 Modu³ Pythona do przechwytywania pakietów za pomoc± biblioteki
