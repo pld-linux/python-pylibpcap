@@ -3,12 +3,12 @@
 Summary:	A Python interface to libpcap
 Summary(pl):	Interfejs Pythona do libpcap
 Name:		python-pylibpcap
-Version:	0.3
+Version:	0.4
 Release:	1
 License:	BSD
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/pylibpcap/pylibpcap-%{version}.tar.gz
-# Source0-md5:	d2ec5112f383dcbe9a964097194fcc7f
+# Source0-md5:	38c9a47db4113594b57aa0944b1ebdcf
 URL:		http://pylibpcap.sourceforge.net/
 BuildRequires:	python-devel >= 2.2.1
 BuildRequires:	rpm-pythonprov
