@@ -1,0 +1,11 @@
+--- pylibpcap-0.4/setup.py.orig	2004-12-27 17:32:20.955668640 +0100
++++ pylibpcap-0.4/setup.py	2004-12-27 17:32:41.915482264 +0100
+@@ -21,7 +21,7 @@
+ #    self.run_command('make_clean')
+ 
+ class pcap_build_ext(build_ext):
+-  def swig_sources(self, sources):
++  def swig_sources(self, sources, extension=None):
+   
+       """Walk the list of source files in 'sources', looking for SWIG
+       interface (.i) files.  Run SWIG on all that are found, and
