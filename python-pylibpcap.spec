@@ -7,7 +7,7 @@ Version:	0.3
 Release:	1
 License:	BSD
 Group:		Libraries/Python
-Source0:	http://prdownloads.sourceforge.net/pylibpcap/pylibpcap-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/pylibpcap/pylibpcap-%{version}.tar.gz
 URL:		http://pylibpcap.sourceforge.net/
 BuildRequires:	python-devel >= 2.2.1
 BuildRequires:	rpm-pythonprov
