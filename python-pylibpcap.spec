@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.python
 
-Summary:	An Python interface to libpcap
+Summary:	A Python interface to libpcap
 Summary(pl):	Interfejs Pythona do libpcap
 Name:		python-pylibpcap
 Version:	0.3
