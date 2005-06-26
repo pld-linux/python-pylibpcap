@@ -12,8 +12,6 @@ Patch0:		%{name}-swig_sources.patch
 URL:		http://pylibpcap.sourceforge.net/
 BuildRequires:	python-devel >= 2.2.1
 BuildRequires:	libpcap-devel
-BuildRequires:	swig
-BuildRequires:	swig-python
 %pyrequires_eq	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
