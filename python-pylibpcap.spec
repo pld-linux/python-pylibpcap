@@ -1,6 +1,6 @@
 
 Summary:	A Python interface to libpcap
-Summary(pl):	Interfejs Pythona do libpcap
+Summary(pl.UTF-8):   Interfejs Pythona do libpcap
 Name:		python-pylibpcap
 Version:	0.4
 Release:	3
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Python module for the libpcap packet capture library, based on the
 original Python libpcap module by Aaron Rhodes.
 
-%description -l pl
-Modu³ Pythona do przechwytywania pakietów za pomoc± biblioteki
+%description -l pl.UTF-8
+ModuÅ‚ Pythona do przechwytywania pakietÃ³w za pomocÄ… biblioteki
 libpcap.
 
 %prep
