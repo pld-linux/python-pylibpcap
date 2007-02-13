@@ -1,6 +1,6 @@
 
 Summary:	A Python interface to libpcap
-Summary(pl.UTF-8):   Interfejs Pythona do libpcap
+Summary(pl.UTF-8):	Interfejs Pythona do libpcap
 Name:		python-pylibpcap
 Version:	0.4
 Release:	3
