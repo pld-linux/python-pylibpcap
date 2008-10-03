@@ -3,7 +3,7 @@ Summary:	A Python interface to libpcap
 Summary(pl.UTF-8):	Interfejs Pythona do libpcap
 Name:		python-pylibpcap
 Version:	0.4
-Release:	3
+Release:	4
 License:	BSD
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/pylibpcap/pylibpcap-%{version}.tar.gz
