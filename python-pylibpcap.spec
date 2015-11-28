@@ -30,7 +30,7 @@ libpcap.
 %patch0 -p1
 
 %build
-env CFLAGS="%{rpmcflags}" %{_bindir}/python setup.py build
+env CFLAGS="%{rpmcflags}" %{_bindir}/%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
