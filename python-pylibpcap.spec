@@ -10,6 +10,7 @@ Source0:	http://dl.sourceforge.net/pylibpcap/pylibpcap-%{version}.tar.gz
 # Source0-md5:	38c9a47db4113594b57aa0944b1ebdcf
 Patch0:		%{name}-swig_sources.patch
 URL:		http://pylibpcap.sourceforge.net/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel >= 2.2.1
 BuildRequires:	libpcap-devel
 BuildRequires:	python-modules
