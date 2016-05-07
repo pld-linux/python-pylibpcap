@@ -1,9 +1,8 @@
-
 Summary:	A Python interface to libpcap
 Summary(pl.UTF-8):	Interfejs Pythona do libpcap
 Name:		python-pylibpcap
 Version:	0.4
-Release:	8
+Release:	9
 License:	BSD
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/pylibpcap/pylibpcap-%{version}.tar.gz
@@ -31,12 +30,13 @@ libpcap.
 %patch0 -p1
 
 %build
-env CFLAGS="%{rpmcflags}" %{_bindir}/%py_build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
-python -- setup.py install --root=$RPM_BUILD_ROOT --optimize=2
 
+%py_install
+%py_postclean
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -46,3 +46,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc README
 %attr(755,root,root) %{py_sitedir}/*.so
 %{py_sitedir}/*.py[co]
+%{py_sitedir}/pylibpcap-%{version}-py*.egg-info
