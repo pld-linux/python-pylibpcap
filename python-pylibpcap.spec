@@ -27,7 +27,7 @@ libpcap.
 
 %prep
 %setup -q -n pylibpcap-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %py_build
